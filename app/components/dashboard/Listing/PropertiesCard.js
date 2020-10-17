@@ -2,7 +2,7 @@ import React from "react";
 import {Radio} from "antd";
 
 import Widget from "../../../components/Widget/index";
-import {albama, colorado, newJersy, popularList} from "../../../../routes/main/Dashboard/Listing/data"
+import {albama, colorado, newJersy, popularList} from "../../../../routes/main/dashboard/Listing/data"
 import CircularProgress from "../../../components/CircularProgress";
 import PropertiesItemCard from "./PropertiesItemCard";
 

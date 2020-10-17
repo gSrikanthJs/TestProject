@@ -1,7 +1,6 @@
 import React from "react";
 import {Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip} from "recharts";
 import {siteVisit} from "../../../../routes/main/dashboard/CRM/data";
-
 const SiteVisit = () => (
   <div className="gx-site-dash gx-pr-xl-5 gx-pt-3 gx-pt-xl-0 gx-pt-xl-2">
     <h6 className="gx-text-uppercase gx-mb-2 gx-mb-xl-4">Site Visits</h6>

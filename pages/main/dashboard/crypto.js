@@ -4,7 +4,7 @@ import Page from '../../../app/hoc/securedPage';
 import dynamic from "next/dynamic";
 import CircularProgress from "../../../app/components/CircularProgress";
 
-const Crypto = dynamic(() => import('../../../routes/main/Dashboard/Crypto'), {
+const Crypto = dynamic(() => import('../../../routes/main/dashboard/Crypto'), {
   loading: () => <CircularProgress/>,
 });
 

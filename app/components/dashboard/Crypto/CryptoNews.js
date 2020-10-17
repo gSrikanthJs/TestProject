@@ -2,7 +2,7 @@ import React from "react";
 import {Radio} from "antd";
 
 import Widget from "../../../components/Widget/index";
-import {allNews, bitCoinNews, lightCoinNews, rippleNews} from "../../../../routes/main/Dashboard/Crypto/data"
+import {allNews, bitCoinNews, lightCoinNews, rippleNews} from "../../../../routes/main/dashboard/Crypto/data"
 import CircularProgress from "../../../components/CircularProgress";
 import CryptoNewsItem from "./CryptoNewsItem";
 
