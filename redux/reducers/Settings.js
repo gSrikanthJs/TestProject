@@ -4,13 +4,14 @@ import {
   NAV_STYLE_FIXED,
   SET_PATH_NAME,
   THEME_TYPE,
-  THEME_TYPE_SEMI_DARK
+  THEME_TYPE_SEMI_DARK,
+  THEME_TYPE_LITE
 } from "../../constants/ThemeSetting";
 
 const initialSettings = {
   navCollapsed: true,
   navStyle: NAV_STYLE_FIXED,
-  themeType: THEME_TYPE_SEMI_DARK,
+  themeType: THEME_TYPE_LITE,
   pathname: '',
   width: 1367,
   isDirectionRTL: false,

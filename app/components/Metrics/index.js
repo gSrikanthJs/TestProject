@@ -3,9 +3,9 @@ import {Card} from "antd";
 import PropTypes from "prop-types";
 
 
-const Metrics = ({title, styleName, children}) => {
+const Metrics = ({title, extra, styleName, children, height}) => {
   return (
-    <Card title={title} className={`gx-card-metrics ${styleName}`}>
+    <Card title={title} extra={extra} className={`gx-card-metrics ${styleName}`} style={{height, 'overflow-y':'auto', 'overflow-x': 'hidden'}}>
       {children}
     </Card>
   )
